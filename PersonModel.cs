@@ -12,7 +12,7 @@ namespace YieldDemo
         {
             FirstName = firstName;
             LastName = lastName;
-            Console.WriteLine(value: $"Initialized user {FirstName} {LastName}");
+            Console.WriteLine($"Initialized user {FirstName} {LastName}");
         }
 
         public string FirstName { get; set; }

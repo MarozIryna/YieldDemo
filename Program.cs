@@ -1,12 +1,12 @@
 ﻿using YieldDemo;
 
-Console.WriteLine(value: "Start of the App");
+Console.WriteLine("Start of the App");
 
-//var people = DataAccessHelpers.GetPeople().Take(count: 2);
+//var people = DataAccessHelpers.GetPeople().Take(2);
 
 //foreach (var p in people)
 //{
-//    Console.WriteLine(value: $"Read {p.FirstName} {p.LastName}");
+//    Console.WriteLine($"Read {p.FirstName} {p.LastName}");
 //}
 
 var primeNumbers = Generators.GetPrimeNumbers().Take(10);
@@ -15,7 +15,7 @@ foreach (var prime in primeNumbers)
     Console.WriteLine(prime);
 }
 
-Console.WriteLine(value: "End of the App");
+Console.WriteLine("End of the App");
 
 public class Generators
 {
