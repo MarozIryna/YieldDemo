@@ -1,1 +1,1 @@
-# YieldDemo
+Hello. This project can show 2 demo versions for yield function. Just run this project and you will see primeNumbers option. Or comment all peace of code from "var primeNumbers" untill the end of "Program" project. Remove comment from peace of code "var people" in "Program" project. Then you can run another example with yield function.
